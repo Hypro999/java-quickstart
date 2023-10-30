@@ -193,7 +193,7 @@
                 <configuration>
                     <java>
                         <eclipse>
-                            <file>${project.basedir}/eclipse-formatter.prefs</file>
+                            <file>${project.basedir}/eclipse-formatter.xml</file>
                         </eclipse>
                     </java>
                 </configuration>
