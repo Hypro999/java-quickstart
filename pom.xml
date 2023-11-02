@@ -195,6 +195,10 @@
                         <eclipse>
                             <file>${project.basedir}/eclipse-formatter.xml</file>
                         </eclipse>
+                        <removeUnusedImports />
+                        <importOrder>
+                            <file>${project.basedir}/import-order.conf</file>
+                        </importOrder>
                     </java>
                 </configuration>
             </plugin>
