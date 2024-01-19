@@ -192,16 +192,16 @@
                 <!-- <version>2.30.0</version> if working with JDK 8 -->
                 <configuration>
                     <java>
-                        <removeUnusedImports />
-                        <importOrder>
-                            <file>${user.home}/.java-import-order</file>
-                        </importOrder>
                         <googleJavaFormat>
                             <version>1.19.2</version>
                             <!-- <version>1.7</version> if working with JDK 8 -->
                             <style>AOSP</style>
                             <formatJavadoc>false</formatJavadoc>
                         </googleJavaFormat>
+                        <importOrder>
+                            <file>${user.home}/.java-import-order</file>
+                        </importOrder>
+                        <removeUnusedImports />
                     </java>
                 </configuration>
             </plugin>
