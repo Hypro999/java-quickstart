@@ -202,7 +202,6 @@
                             <style>AOSP</style>
                             <formatJavadoc>false</formatJavadoc>
                         </googleJavaFormat>
-                        <formatAnnotations />
                     </java>
                 </configuration>
             </plugin>
